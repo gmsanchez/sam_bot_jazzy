@@ -1,0 +1,52 @@
+# First-Time Robot Setup Guide
+
+This section is a collection of guides that aims to provide readers a
+good resource for setting up Nav2. The objectives for this section are
+as follows:
+
+-   Help new users with setting up Navigation2 with a new robot
+-   Help people with custom built robots to properly set up their robots
+    to be used in ROS/Navigation2
+-   Act as a checklist, template or boilerplate reference for more
+    experienced readers
+-   Provide examples which can be run on simulators/tools like Gazebo or
+    RViz to guide readers on the Nav2 setup process even without a
+    physical robot.
+-   Broad strokes, tips, and tricks for configuring certain packages and
+    integrating different components of the robot platform (sensors,
+    odometry, etc.)
+
+To guide you through the first-time setup of your robot, we will be
+tackling the following topics:
+
+-   Introduce TF2 and setup your robot URDF & SDF
+-   Setup sensor sources for robot odometry
+-   Setup sensor sources for perception
+-   Configure round or arbitrary shaped footprints for your robot
+-   Select and set up planner and controller navigation plugins for your
+    robot\'s navigation tasks
+-   Lifecycle node management for easy bringup of other related sensors
+    or nodes
+
+There are tutorials below for the Gazebo Classic simulator and the
+Gazebo simulator. Gazebo Classic is used with ROS 2 Humble and previous
+ROS distributions, while Gazebo (Gazebo Harmonic or newer) is used with
+ROS 2 Jazzy or newer.
+
+## Table of Contents
+
+- [Setting Up Transformations](transformation/setup_transforms.md)
+- [Setting Up The URDF](urdf/setup_urdf.rst)
+- [Setting Up The SDF - Gazebo](sdf/setup_sdf.rst)
+- [Setting Up Odometry - Gazebo](odom/setup_odom_gz.rst)
+- [Smoothing Odometry using Robot Localization](odom/setup_robot_localization.rst)
+- [Setting Up Sensors - Gazebo](sensors/setup_sensors_gz.rst)
+- [Mapping and Localization](sensors/mapping_localization.rst)
+- [Setting Up the Robot’s Footprint](footprint/setup_footprint.rst)
+- [Setting Up Navigation Plugins](algorithm/select_algorithm.rst)
+
+
+> _*NOTE:*_ These tutorials are not meant to be full tuning and configuration guides
+since they only aim to help you get your robot up and running with a
+basic configuration. For more detailed discussions and guides on how to
+customize and tune Nav2 for your robot, head on to the [Nav2 docs](https://docs.nav2.org/index.html).
