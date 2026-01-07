@@ -81,6 +81,7 @@ be using during this tutorial.
 ``` shell
 sudo apt install ros-<ros2-distro>-joint-state-publisher-gui
 sudo apt install ros-<ros2-distro>-xacro
+sudo apt install ros-<ros2-distro>-rviz2
 ```
 
 Next, create a directory for your project, initialize a ROS 2 workspace
@@ -103,15 +104,12 @@ Now that we have our project workspace set up, let\'s dive straight into
 writing the URDF. Below is an image of the robot we will be trying to
 build.
 
-![image](images/base-bot_1.png){width="49.0%"}
+![image](images/base-bot_1.png)
 
-![image](images/base-bot_2.png){width="49.0%"}
+![image](images/base-bot_2.png)
 
-| 
 
-> To get started, create a file named `sam_bot_description.urdf` under
-> `src/description` and input the following as the initial contents of
-> the file.
+To get started, create a file named `sam_bot_description.urdf` under `src/description` and input the following as the initial contents of the file.
 
 ``` {.xml linenos=""}
 <?xml version="1.0"?>

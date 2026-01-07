@@ -35,15 +35,15 @@ ROS 2 Jazzy or newer.
 
 ## Table of Contents
 
-- [Setting Up Transformations](transformation/setup_transforms.md)
-- [Setting Up The URDF](urdf/setup_urdf.md)
-- [Setting Up The SDF - Gazebo](sdf/setup_sdf.md)
-- [Setting Up Odometry - Gazebo](odom/setup_odom_gz.md)
-- [Smoothing Odometry using Robot Localization](odom/setup_robot_localization.md)
-- [Setting Up Sensors - Gazebo](sensors/setup_sensors_gz.md)
-- [Mapping and Localization](sensors/mapping_localization.md)
-- [Setting Up the Robot’s Footprint](footprint/setup_footprint.md)
-- [Setting Up Navigation Plugins](algorithm/select_algorithm.md)
+1. [Setting Up Transformations](transformation/setup_transforms.md)
+2. [Setting Up The URDF](urdf/setup_urdf.md)
+3. [Setting Up The SDF - Gazebo](sdf/setup_sdf.md)
+4. [Setting Up Odometry - Gazebo](odom/setup_odom_gz.md)
+5. [Smoothing Odometry using Robot Localization](odom/setup_robot_localization.md)
+6. [Setting Up Sensors - Gazebo](sensors/setup_sensors_gz.md)
+7. [Mapping and Localization](sensors/mapping_localization.md)
+8. [Setting Up the Robot’s Footprint](footprint/setup_footprint.md) (Optional)
+9. [Setting Up Navigation Plugins](algorithm/select_algorithm.md) (Optional)
 
 
 > _*NOTE:*_ These tutorials are not meant to be full tuning and configuration guides
