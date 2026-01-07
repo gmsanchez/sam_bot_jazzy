@@ -173,7 +173,7 @@ Next, add the following launch arguments within the
 `return launch.LaunchDescription([` block.
 
 ``` shell
-launch.actions.DeclareLaunchArgument(name='use_sim_time', default_value='True',
+DeclareLaunchArgument(name='use_sim_time', default_value='True',
                                             description='Flag to enable use_sim_time'),
 ```
 
