@@ -109,14 +109,14 @@ ekf_filter_node:
         base_link_frame: base_link  # Defaults to "base_link" if unspecified
         world_frame: odom           # Defaults to the value of odom_frame if unspecified
 
-        odom0: demo/odom
+        odom0: odom
         odom0_config: [false, false, false,
                       false, false, false,
                       true, true, false,
                       false, false, true,
                       false, false, false]
 
-        imu0: demo/imu
+        imu0: imu
         imu0_config: [false, false, false,
                       false, false, false,
                       false, false, false,
@@ -137,9 +137,9 @@ To add a sensor input to the `ekf_filter_node`, add the next number in
 the sequence to its base name (odom, imu, pose, twist). In our case, we
 have one `nav_msgs/Odometry` and one `sensor_msgs/Imu` as inputs to the
 filter, thus we use `odom0` and `imu0`. We set the value of `odom0` to
-`demo/odom`, which is the topic that publishes the `nav_msgs/Odometry`.
+`odom`, which is the topic that publishes the `nav_msgs/Odometry`.
 Similarly, we set the value of `imu0` to the topic that publishes
-`sensor_msgs/Imu`, which is `demo/imu`.
+`sensor_msgs/Imu`, which is `imu`.
 
 To understand how `robot_localization` is configured and understand the
 reasoning behind the config have a look at [Configuring

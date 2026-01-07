@@ -213,7 +213,7 @@ Add the following lines before the `</model>` line in your robot SDF:
     <always_on>true</always_on>
     <update_rate>100</update_rate>
     <visualize>true</visualize>
-    <topic>demo/imu</topic>
+    <topic>imu</topic>
     <gz_frame_id>imu_link</gz_frame_id>
     <imu>
       <angular_velocity>
