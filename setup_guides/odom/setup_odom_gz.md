@@ -158,7 +158,7 @@ in the [Gazebo Installation
 Documentation](https://gazebosim.org/docs/latest/ros_installation/).
 
 ``` shell
-sudo apt install ros-<ros2-distro>-ros-gz
+sudo apt install ros-jazzy-ros-gz
 ```
 
 ### Adding Gazebo Plugins to a URDF/SDF

@@ -310,7 +310,7 @@ To be able to launch `slam_toolbox`, make sure that you have installed
 the `slam_toolbox` package by executing the following command:
 
 ``` shell
-sudo apt install ros-<ros2-distro>-slam-toolbox
+sudo apt install ros-jazzy-slam-toolbox
 ```
 
 We will launch the `async_slam_toolbox_node` of `slam_toolbox` using the
@@ -434,8 +434,8 @@ First, Make sure you have installed the Nav2 packages by executing the
 following:
 
 ``` shell
-sudo apt install ros-<ros2-distro>-navigation2
-sudo apt install ros-<ros2-distro>-nav2-bringup
+sudo apt install ros-jazzy-navigation2
+sudo apt install ros-jazzy-nav2-bringup
 ```
 
 We will now launch Nav2 using the `nav2_bringup`'s built-in launch

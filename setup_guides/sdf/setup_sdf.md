@@ -24,7 +24,7 @@ We can also use our SDF with the robot_state_publisher using the
 following package. You will see how to do this in the tutorial below.
 
 ``` shell
-sudo apt install ros-<ros2-distro>-sdformat-urdf
+sudo apt install ros-jazzy-sdformat-urdf
 ```
 
 This package contains a C++ library and urdf_parser_plugin for
