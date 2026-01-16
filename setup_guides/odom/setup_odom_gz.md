@@ -97,6 +97,11 @@ linear = (right_wheel_est_vel + left_wheel_est_vel) / 2
 angular = (right_wheel_est_vel - left_wheel_est_vel) / wheel_separation;
 ```
 
+> **_NOTE:_**
+> For more information on differential drive kinematics, see [Chapter 13.1.2.2](https://msl.cs.uiuc.edu/planning/node659.html) of
+>  "Planning Algorithms" by Steven M. LaValle.
+
+
 The `right_wheel_est_vel` and `left_wheel_est_vel` are the estimated
 velocities of the right and left wheels respectively, and the
 `wheel separation` is the distance between the wheels. The values of
@@ -119,10 +124,8 @@ that deal with different kind of sensors are also available in
 `ros2_control`.
 
 > **_SEE ALSO:_**
-For more information, see the [ros2_control
-documentation](https://control.ros.org/) and the [Github repository of
-diff_drive_controller](https://github.com/ros-controls/ros2_controllers/tree/master/diff_drive_controller/).
-
+> For more information, see the [ros2_control documentation](https://control.ros.org/) and the [Github repository of
+> diff_drive_controller](https://github.com/ros-controls/ros2_controllers/tree/master/diff_drive_controller/).
 
 For other types of sensors such as IMU, VIO, etc, their respective ROS
 drivers should have documentation on how publish the odometry
