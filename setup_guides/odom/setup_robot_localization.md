@@ -66,7 +66,7 @@ First, install the `robot_localization` package using your machines
 package manager or by executing the following command:
 
 ``` shell
-sudo apt install ros-<ros2-distro>-robot-localization
+sudo apt install ros-jazzy-robot-localization
 ```
 
 Next, we specify the parameters of the `ekf_node` using a YAML file.
